@@ -1,0 +1,9 @@
+myApp:
+  component: "@sls-next/serverless-component@3.3.0"
+  inputs:
+    bucketName: "sample-site-with-serverless-nextjs-plugin-bucket"
+    bucketRegion: "ap-northeast-1"
+    name:
+      defaultLambda: "sample-site-with-serverless-nextjs-plugin-default-fucntion"
+      apiLambda: "sample-site-with-serverless-nextjs-plugin-api-fucntion"
+      imageLambda: "sample-site-with-serverless-nextjs-plugin-image-fucntion"
