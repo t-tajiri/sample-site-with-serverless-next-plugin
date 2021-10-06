@@ -52,7 +52,7 @@ const Home: NextPage = () => {
           </a>
 
           <span className={styles.card}>
-            <Image src="/love.jpeg" alt="love" width={520} height={720} />
+            <Image src="/love.jpeg" alt="love" width={520} height={720} layout="responsive" />
           </span>
         </div>
       </main>
